@@ -19,14 +19,14 @@ const config = {
     timeout: '5s'
   },
   coinDetails: {
-    name: 'Bulwark',
-    shortName: 'BWK',
+    name: 'Zenzo',
+    shortName: 'ZNZ',
     displayDecimals: 2,
-    longName: 'Bulwark Cryptocurrency',
+    longName: 'ZENZO Coin',
     coinNumberFormat: '0,0.0000',
     coinTooltipNumberFormat: '0,0.0000000000', // Hovering over a number will show a larger percision tooltip
-    websiteUrl: 'https://bulwarkcrypto.com/',
-    masternodeCollateral: 5000, // MN ROI% gets based on this number. If your coin has multi-tiered masternodes then set this to lowest tier (ROI% will simply be higher for bigger tiers)
+    websiteUrl: 'https://zenzo.io',
+    masternodeCollateral: 15000, // MN ROI% gets based on this number. If your coin has multi-tiered masternodes then set this to lowest tier (ROI% will simply be higher for bigger tiers)
   },
   offChainSignOn: {
     enabled: true,
@@ -36,9 +36,6 @@ const config = {
   // Add any important block counting down in this array
   blockCountdowns: [
     {
-      block: 602880, // What block are we counting down to?
-      beforeTitle: 'Next Superblock', // What do we show before the block number is hit?
-      afterTitle: 'Superblock Active For' // What do we show after the block number is hit?
     }
   ],
 
@@ -66,7 +63,7 @@ const config = {
   },
   coinMarketCap: {
     api: 'http://api.coinmarketcap.com/v1/ticker/',
-    ticker: 'bulwark'
+    ticker: 'zenzo'
   },
 
   /**
